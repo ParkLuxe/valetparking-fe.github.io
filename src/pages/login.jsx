@@ -105,7 +105,8 @@ const Login = () => {
           {/* ✅ SUBMIT BUTTON */}
           <div className="flex flex-col gap-3 items-center">
             <button
-              type="submit"
+              // type="submit"
+              
               disabled={isSubmitting}
               className={`w-full text-white text-sm font-medium py-2 rounded-lg transition ${
                 isSubmitting
@@ -117,7 +118,7 @@ const Login = () => {
             </button>
 
             <Link
-              to={"/signup"}
+              to={"/admin"}
               className="font-medium text-blue-600 hover:underline text-sm"
             >
               Don't have an account? Register
